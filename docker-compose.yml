@@ -4,7 +4,7 @@ services:
 
   flask:
     build: ./flask
-    image: flask:latest
+    image: flask:rc
     container_name: flask
     restart: always
     environment:
@@ -14,8 +14,8 @@ services:
 
   nginx: 
     build: ./nginx
-    image: nginx:flask
+    image: nginx:rc
     container_name: nginx
     restart: always
     ports:
-      - "80:80"
+      - "5000:80"
