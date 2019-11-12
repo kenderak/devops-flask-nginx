@@ -1,5 +1,5 @@
 # devops-flask-nginx
-Flask web application with Nginx reverse proxy server.
+Flask web application with nginx reverse proxy server.
 
 
 ### Build images
