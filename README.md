@@ -9,7 +9,7 @@ docker-compose build
 
 ### Run containers
 
-Run the following command if you want to see everything in console about the running applications.
+Run the following command if you want to see everything in the console about the running applications.
 
 ```shell
 docker-compose up
